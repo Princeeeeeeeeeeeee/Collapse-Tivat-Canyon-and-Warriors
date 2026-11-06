@@ -1,0 +1,12 @@
+# Build outputs
+x64/
+.vs/
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.log
+*.recipe
+*.lib
+*.ipch
+*.tlog

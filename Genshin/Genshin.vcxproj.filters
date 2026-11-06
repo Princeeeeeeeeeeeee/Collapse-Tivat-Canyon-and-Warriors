@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\scene">
+      <UniqueIdentifier>{edef8970-d9aa-40a6-be38-b3056a0a250f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\player">
+      <UniqueIdentifier>{04b5926d-b934-4351-b3d2-e96490ca9a1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\enemy">
+      <UniqueIdentifier>{09c07095-1431-429c-b8d4-35e17139f1f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="scene.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>头文件\player</Filter>
+    </ClInclude>
+    <ClInclude Include="else.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="music.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="monster.h">
+      <Filter>头文件\enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="start.h">
+      <Filter>头文件\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
